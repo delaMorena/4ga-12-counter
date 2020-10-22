@@ -8,6 +8,8 @@ export function Counter(props) {
 	//	const timerUpdate = setInterval(() => {
 	//		setTimer(timer => timer + 1);
 	//	}, 1000);
+	// en el return hace falta una fn flecha ya que a clearInterval hay que llamarlo
+	// constantemente.
 	//	return clearInterval(timerUpdate);
 	//}, []);
 	useEffect(() => {
@@ -16,7 +18,7 @@ export function Counter(props) {
 		}, props.miliSec);
 		return () => clearInterval(interval);
 	}, []);
-	//
+	//funcion para parar el timer
 	return <div>{timer % 10}</div>;
 }
 

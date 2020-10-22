@@ -9,5 +9,15 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
+    font-family: 'Merriweather', serif;
+font-family: 'Vampiro One', cursive;
 
 */
+#contador {
+    font-size: 100px;
+    flex-direction: row-reverse;
+    padding: 200px 350px;
+    background-color: #23425f;
+    color: #a64942;
+    font-family: 'Vampiro One', cursive;
+}
