@@ -14,6 +14,12 @@ export function Home() {
 				find out stuff. And you know what?? You actually are!!
 			</p>
 			<hr className="my-4" />
+			<h5>
+				So... Keep track of your time. Try not to invest more than 10-15
+				minutes researching by yourself.
+				<p>You´re now part of a big friendly community.</p>
+				<p>Ask for help.</p>
+			</h5>
 
 			<div id="contador" className="row">
 				<Counter className="col-3" miliSec="1000" />
