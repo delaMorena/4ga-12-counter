@@ -20,12 +20,15 @@ export function Home() {
 				<p>You´re now part of a big friendly community.</p>
 				<p>Ask for help.</p>
 			</h5>
-
-			<div id="contador" className="row">
-				<Counter className="col-3" miliSec="1000" />
-				<Counter className="col-3" miliSec="10000" />
-				<Counter className="col-3" miliSec="100000" />
-				<Counter className="col-3" miliSec="1000000" />
+			<div id="name" className="row">
+				<div className="col-8">Minutos</div>
+				<div className="col-4">Segundos</div>
+			</div>
+			<div id="contador" className="row d-flex flex-row-reverse">
+				<Counter className="col-6" miliSec="1000" />
+				<Counter className="col-6" miliSec="10000" />
+				<Counter className="col-6" miliSec="100000" />
+				<Counter className="col-6" miliSec="1000000" />
 			</div>
 		</div>
 	);

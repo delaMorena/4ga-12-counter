@@ -12,7 +12,11 @@
     ;
 
 */
+#name {
+    font-family: 'Vampiro One', cursive;
+    font-size: 50px;
 
+}
 #contador {
     font-size: 100px;
     flex-direction: row-reverse;
@@ -41,4 +45,5 @@ h5 > p {
     font-family: 'Vampiro One', cursive;
     margin-top: 10px;
     font-size: 20px;
+    font-weight: 50px
 }
